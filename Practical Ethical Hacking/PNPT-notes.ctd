@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node unique_id="1" master_id="0" name="the hacker methodology" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751365445" ts_lastsave="1751365840">
+    <rich_text scale="h1">the five stages of Ethical Hacking</rich_text>
+    <rich_text>
+
+1. Reconnaissance
+   ◇ 	as Active vs Passive
+2. Scanning &amp; Enumeration
+   ◇ Nmap, Nessus, Nikto
+3. Gaining Access ("Exploitation")
+4. Maintaining Access
+5. Covering Tracks</rich_text>
+  </node>
+  <node unique_id="2" master_id="0" name="Information Gathering" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="1" foreground="" ts_creation="1751365840" ts_lastsave="1751368646">
+    <rich_text scale="h1">Information Gathering (Reconnaissance)</rich_text>
+    <rich_text>
+
+1. Physical / Social
+   1) Location Information
+      ▪ satelite images
+      ▪ Drone recon
+      ▪ Building layout ( badge readers, break areas, security)
+   3) Job Information
+      ▪ Employees ( name, job title, phone number, manager)
+      ▪ Pictures ( badge photos, desk photos, computer photos)
+2. Web / Host
+   5) Target Validation
+      ▪ WHOIS, nslookup
+   7) Finding Subdomains
+      ▪ Sulist3r, subfinder, Nmap, Google Fu
+   9) Fingerprinting
+      ▪ Nmap, Wappalyzer, Whatweb, Builtwith
+   11) Data Breaches
+      ▪ HaveBeenPwned, WeLeakInfo</rich_text>
+    <node unique_id="3" master_id="0" name="Discovering Email Addresses" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751366485" ts_lastsave="1751367120">
+      <rich_text>1. </rich_text>
+      <rich_text link="webs https://hunter.io/">Hunter</rich_text>
+      <rich_text> free/paid
+2. </rich_text>
+      <rich_text link="webs https://phonebook.cz/">Phonebook</rich_text>
+      <rich_text> free
+3. </rich_text>
+      <rich_text link="webs https://tools.emailhippo.com/">EmailHippo</rich_text>
+      <rich_text> free (verify emails)</rich_text>
+    </node>
+    <node unique_id="4" master_id="0" name="Gathering Breached Credentials" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751367120" ts_lastsave="1751367564">
+      <rich_text>1. </rich_text>
+      <rich_text link="webs https://github.com/hmaverickadams/breach-parse">Breach-Parse</rich_text>
+      <rich_text> free tool
+2. </rich_text>
+      <rich_text link="webs https://dehashed.com/">DeHashed</rich_text>
+      <rich_text> paid
+</rich_text>
+    </node>
+    <node unique_id="5" master_id="0" name="Hunting Subdomains" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751367564" ts_lastsave="1751367845">
+      <rich_text>1. </rich_text>
+      <rich_text link="webs https://github.com/aboul3la/Sublist3r">sublist3r</rich_text>
+      <rich_text>
+2. </rich_text>
+      <rich_text link="webs https://github.com/projectdiscovery/subfinder">subfinder</rich_text>
+      <rich_text>
+3. </rich_text>
+      <rich_text link="webs https://crt.sh/">crt.sh</rich_text>
+      <rich_text>
+4. </rich_text>
+      <rich_text link="webs https://github.com/owasp-amass/amass">Amass</rich_text>
+    </node>
+    <node unique_id="6" master_id="0" name="Identifying web technologies" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751367845" ts_lastsave="1751368086">
+      <rich_text>1. </rich_text>
+      <rich_text link="webs https://builtwith.com/">BuiltWith</rich_text>
+      <rich_text>
+2. </rich_text>
+      <rich_text link="webs https://www.wappalyzer.com/">wappalyzer</rich_text>
+      <rich_text>
+3. </rich_text>
+      <rich_text link="webs https://www.kali.org/tools/whatweb/">whatweb</rich_text>
+    </node>
+    <node unique_id="7" master_id="0" name="others" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751368086" ts_lastsave="1751368213">
+      <rich_text>1. full scanner (</rich_text>
+      <rich_text link="webs https://portswigger.net/burp">Burp suite</rich_text>
+      <rich_text>)
+2. </rich_text>
+      <rich_text link="webs https://ahrefs.com/blog/google-advanced-search-operators/">Google Fu</rich_text>
+      <rich_text>
+3. </rich_text>
+      <rich_text weight="heavy">for more recon we can Utilizing social media</rich_text>
+    </node>
+  </node>
+  <node unique_id="8" master_id="0" name="Scanning &amp; Enumeration" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751368646" ts_lastsave="1751368839">
+    <rich_text>we gonna install machine called </rich_text>
+    <rich_text link="webs https://drive.google.com/drive/folders/1CsGWRsmyJm84TAU6U0-72o4Jnb5E9xvs">Kioptrix</rich_text>
+    <rich_text> to practice scanning on it
+
+username: john
+password: TwoCows2</rich_text>
+  </node>
+</cherrytree>
